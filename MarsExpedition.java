@@ -34,5 +34,34 @@ public class MarsExpedition {
         System.out.println("(Input snack name here)");
         Thread.sleep(100);
         System.out.println("Great choice, you will be bringing " + snack + " with you.");
+        System.out.println("You have the choice of 3 vehicles" +
+                "\nA: A Hoverbike" +
+                "\nB: A 1989 Toyota Supra Turbo" +
+                "\nC: A Warthog");
+        String vehicleChoice = input.nextLine();
+
+        if (vehicleChoice.equalsIgnoreCase("A")){
+            vehicleChoice = "a Hoverbike";
+        } else if (vehicleChoice.equalsIgnoreCase("B")){
+            vehicleChoice = "a 1989 Toyota Supra Turbo";
+        } else if (vehicleChoice.equalsIgnoreCase("C")){
+            vehicleChoice = "a Warthog";
+        } else {
+            vehicleChoice = "Your feet";
+        }
+
+        System.out.println("Well Team Leader " + userName + ". Your team size is " + group + " and you are bringing " + snack + " with you in " + vehicleChoice);
+        System.out.println("You are ready to depart for your exploration");
+        System.out.println("5");
+        Thread.sleep(300);
+        System.out.println("4");
+        Thread.sleep(300);
+        System.out.println("3");
+        Thread.sleep(300);
+        System.out.println("2");
+        Thread.sleep(300);
+        System.out.println("1");
+        Thread.sleep(300);
+        System.out.println("Opening airlock door. Good luck " + userName + " safe travels.");
     }
 }
