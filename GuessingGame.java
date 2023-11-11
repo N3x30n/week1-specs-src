@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 public class GuessingGame {
-    public static void main (String[] args) throws InterruptedException{
+    public void main() {
         System.out.println("Why, Hello there. What is your name?");
         System.out.println("(Type in your name)");
         Scanner input = new Scanner(System.in);

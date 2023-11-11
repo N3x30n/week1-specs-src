@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.*;
 public class FindingsList {
-    public static void main(String[] args) throws InterruptedException {
+    public void main() throws InterruptedException {
         Thread.sleep(500);
         System.out.println("Welcome back to the ship Team Leader. What are your findings?");
         ArrayList<String> findings = new ArrayList<String>();

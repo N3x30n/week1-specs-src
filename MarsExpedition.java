@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class MarsExpedition {
-    public static void main(String[] args) throws InterruptedException {
+    public void main() throws InterruptedException {
         System.out.println("Expedition terminal booting up");
         Thread.sleep(300);
         System.out.println("Expedition terminal launched");
